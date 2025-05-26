@@ -1,0 +1,163 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+
+  #searchBox, #categorySelect {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+  }
+
+  #searchBox:focus, #categorySelect:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+
+  #searchButton {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #searchButton:hover {
+    background-color: #357ABD;
+  }
+
+  #results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .image-container { /* New style for the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px; /* Match image width for consistent layout */
+  }
+
+  #results img {
+    width: 150px;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+
+  #results img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .image-name { /* New style for the image name */
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+    word-break: break-word; /* Allow long names to wrap */
+  }
+</style>
+
+<input type="text" id="searchBox" placeholder="Search for image(s) ..." onkeydown="handleEnter(event)">
+<select id="categorySelect">
+  <option value="">All Categories</option>
+</select>
+<button id="searchButton" onclick="searchImages()">Search</button>
+<div id="results"></div>
+
+<script>
+const images = [
+  {
+    "name": "undiagnosed_DSC_0075",
+    "category": "undiagnosed",
+    "thumb": "https://dl.dropboxusercontent.com/scl/fi/77mew1icwgds2y6ux8gjc/DSC_0075_thumb.JPG?rlkey=ru4gafcq1jehtpb20hopaz68h&raw=1",
+    "url": "https://dl.dropboxusercontent.com/scl/fi/bhijm6d6a3pybotd1onvz/DSC_0075.JPG?rlkey=l6x6sdy73whxtgvuut5sqgt7d&raw=1"
+  },
+  {
+    "name": "undiagnosed_DSC_0078",
+    "category": "undiagnosed",
+    "thumb": "https://dl.dropboxusercontent.com/scl/fi/vbmm5yayilindg8furj9z/DSC_0078_thumb.JPG?rlkey=r5xq0ufnz1e2nc5qkfinjk84x&raw=1",
+    "url": "https://dl.dropboxusercontent.com/scl/fi/uq0s91pgrnsr071z5se98/DSC_0078.JPG?rlkey=wp1kbefhtcbjd3y46wbcwuk5r&raw=1"
+  }
+];
+
+// Populate category dropdown on load
+window.onload = () => {
+  const categorySelect = document.getElementById('categorySelect');
+  const categories = [...new Set(images.map(img => img.category))];
+
+  // Sort the categories array alphabetically
+    categories.sort(); 
+
+  categories.forEach(cat => {
+    const option = document.createElement('option');
+    option.value = cat;
+    option.textContent = cat;
+    categorySelect.appendChild(option);
+  });
+};
+
+function handleEnter(event) {
+  if (event.key === "Enter") {
+    searchImages();
+  }
+}
+
+function searchImages() {
+  const query = document.getElementById('searchBox').value.trim().toLowerCase();
+  const category = document.getElementById('categorySelect').value;
+  const results = document.getElementById('results');
+  results.innerHTML = '';
+
+  const filtered = images.filter(img =>
+    (query === '' || img.name.toLowerCase().includes(query)) &&
+    (category === '' || img.category === category)
+  );
+
+  if (filtered.length === 0) {
+    results.innerHTML = '<p>No results found.</p>';
+    return;
+  }
+
+  filtered.forEach(img => {
+    // Create a container for each image and its name
+    const imageContainer = document.createElement('div');
+    imageContainer.classList.add('image-container');
+
+    const link = document.createElement('a');
+    link.href = img.url;
+    link.target = "_blank";
+
+    const imgEl = document.createElement('img');
+    imgEl.src = img.thumb;
+    imgEl.alt = img.name;
+
+    const nameEl = document.createElement('p'); // Create a paragraph for the image name
+    nameEl.classList.add('image-name');
+    nameEl.textContent = img.name;
+
+    link.appendChild(imgEl);
+    imageContainer.appendChild(link);
+    imageContainer.appendChild(nameEl); // Add the name to the container
+    results.appendChild(imageContainer); // Add the container to the results
+  });
+}
+</script>
+
+
