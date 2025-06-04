@@ -1,0 +1,68 @@
+{
+  "PART I": {
+    "DISORDERS PRESENTING IN THE SKIN AND MUCOUS MEMBRANES (Ellen)": {
+      "SECTION 1": {
+        "ACNEIFORM DISORDERS": {
+          "Acne Vulgaris": [
+            {
+              "thumb": "https://example.com/thumbs/image1.jpg",
+              "original": "https://example.com/images/image1.jpg"
+            },
+            {
+              "thumb": "https://example.com/thumbs/image2.jpg",
+              "original": "https://example.com/images/image2.jpg"
+            }
+          ],
+          "Rosacea": [
+            {
+              "thumb": "https://example.com/thumbs/image3.jpg",
+              "original": "https://example.com/images/image3.jpg"
+            },
+            {
+              "thumb": "https://example.com/thumbs/image4.jpg",
+              "original": "https://example.com/images/image4.jpg"
+            }
+          ],
+          "Periorificial Dermatitis": [
+            {
+              "thumb": "https://example.com/thumbs/image5.jpg",
+              "original": "https://example.com/images/image5.jpg"
+            },
+            {
+              "thumb": "https://example.com/thumbs/image6.jpg",
+              "original": "https://example.com/images/image6.jpg"
+            }
+          ]
+        }
+      },
+      "SECTION 2": {
+        "ECZEMA/DERMATITIS": {
+          "Contact Dermatitis": [
+            {
+              "thumb": "https://example.com/thumbs/image7.jpg",
+              "original": "https://example.com/images/image7.jpg"
+            },
+            {
+              "thumb": "https://example.com/thumbs/image8.jpg",
+              "original": "https://example.com/images/image8.jpg"
+            }
+          ],
+          "Atopic Dermatitis": {
+            "Lichen Simplex Chronicus": [
+              {
+                "thumb": "https://example.com/thumbs/image9.jpg",
+                "original": "https://example.com/images/image9.jpg"
+              }
+            ],
+            "Prurigo Nodularis": [
+              {
+                "thumb": "https://example.com/thumbs/image10.jpg",
+                "original": "https://example.com/images/image10.jpg"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

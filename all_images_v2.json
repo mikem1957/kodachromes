@@ -1,0 +1,3479 @@
+[
+  {
+    "part_title": "PART I DISORDERS PRESENTING IN THE SKIN AND MUCOUS MEMBRANES",
+    "sections": [
+      {
+        "section_title": "SECTION 1 ACNEIFORM DISORDERS",
+        "disorders": [
+          {
+            "name": "Acne Vulgaris",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Rosacea",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Periorificial Dermatitis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Miliaria",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Hidradenitis Suppurativa",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Fox Fordyce",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 2 ECZEMA/DERMATITIS",
+        "disorders": [
+          {
+            "name": "Contact Dermatitis",
+            "sub_disorders": [
+              {
+                "name": "Irritant Contact Dermatitis (ICD)",
+                "sub_disorders": [
+                  {
+                    "name": "Acute Irritant Contact Dermatitis",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Chronic Irritant Contact Dermatitis",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Special Forms of ICD",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Allergic Contact Dermatitis",
+                "sub_disorders": [
+                  {
+                    "name": "Patch testing",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Atopic Dermatitis",
+            "sub_disorders": [
+              {
+                "name": "Lichen Simplex Chronicus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Prurigo Nodularis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dyshidrotic Eczematous Dermatitis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Nummular Eczema",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Autosensitization Dermatitis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Seborrheic Dermatitis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Asteatotic Dermatitis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Therapeutics",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 3 PSORIASIS; PSORIASIFORM AND PITYRIASIFORM DERMATOSES",
+        "disorders": [
+          {
+            "name": "Psoriasis",
+            "sub_disorders": [
+              {
+                "name": "Psoriasis Vulgaris",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Pustular Psoriasis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Palmoplantar Pustulosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Generalized Acute Pustular Psoriasis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Psoriatic Erythroderma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Psoriatic Arthritis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Management of Psoriasis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pityriasis Rubra Pilaris",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Pityriasis Rosea",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Therapeutics",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 4: BULLOUS DISORDERS",
+        "disorders": [
+          {
+            "name": "Pemphigus",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Bullous Pemphigoid",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Cicatricial Pemphigoid",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Pemphigoid Gestationis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Dermatitis Herpetiformis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Linear IgA Dermatosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Epidermolysis Bullosa Acquisita",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Therapeutics",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 5 INHERITED DISORDERS",
+        "disorders": [
+          {
+            "name": "Darier Disease",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Grover Disease",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Hailey-Hailey Disease (Familial Benign Pemphigus)",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "EB",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Ichthyosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Pseudoxanthoma Elasticum",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Tuberous Sclerosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Neurofibromatosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Hereditary Hemorrhagic Telangiectasia",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Cowden",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Muir Ture",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 6: Pediatric Focus: VAC and New Syndromes",
+        "disorders": []
+      },
+      {
+        "section_title": "SECTION 7 NEUTROPHIL-MEDIATED DISEASES",
+        "disorders": [
+          {
+            "name": "Pyoderma Gangrenosum",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Sweet Syndrome",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Granuloma Faciale",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Therapeutics",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 8 Subcutaneous Disorders",
+        "disorders": [
+          {
+            "name": "Erythema Nodosum Syndrome",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Other Panniculitides",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Lipoma, angiolipoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 9 BENIGN NEOPLASMS AND HYPERPLASIAS",
+        "disorders": [
+          {
+            "name": "Disorders of Melanocytes",
+            "sub_disorders": [
+              {
+                "name": "Acquired Melanocytic Nevi",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Halo Melanocytic Nevi",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Blue Nevus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Nevus Spilus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Spitz Nevus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Mongolian Spot",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Nevus of Ota, Ito",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Vascular Tumors (benign)",
+            "sub_disorders": [
+              {
+                "name": "Hemangioma of Infancy",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Pyogenic Granuloma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Glomus Tumor",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Vascular Malformations",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Capillary Malformations",
+            "sub_disorders": [
+              {
+                "name": "Port-Wine Stain",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Spider Angioma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Venous Lake",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Cherry Angioma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Angiokeratoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lymphatic Malformation",
+            "sub_disorders": [
+              {
+                "name": "Lymphangioma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Miscellaneous Cysts and Pseudocysts",
+            "sub_disorders": [
+              {
+                "name": "Epidermal Inclusion Cyst",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Pilar cyst",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Milium",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Digital Myxoid Cyst",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pseudocyst of the auricle",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Miscellaneous Benign Neoplasm and Hyperplasias",
+            "sub_disorders": [
+              {
+                "name": "Seborrheic Keratosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "CNH",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Weather nodule nodule",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Becker Nevus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Trichoepithelioma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Syringoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Cylindroma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Sebaceous Hyperplasia",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Nevus Sebaceous",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Epidermal Nevus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Benign Dermal Neoplasms and Hyperplasias",
+            "sub_disorders": [
+              {
+                "name": "Dermatofibroma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Hypertrophic Scars and Keloids",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Infantile Digital Fibromatosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Skin Tag",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 11 PRECANCEROUS LESIONS AND CUTANEUS CARCINOMAS",
+        "disorders": [
+          {
+            "name": "Epidermal Precancers and Cancers",
+            "sub_disorders": [
+              {
+                "name": "Actinic Keratosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Squamous Cell Carcinoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Basal Cell Carcinoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Basal Cell Nevus Syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Malignant Appendage Tumors",
+            "sub_disorders": [
+              {
+                "name": "Merkel Cell Carcinoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Sebaceous carcinoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 12 MELANOMA PRECURSORS AND PRIMARY CUTANEOUS MELANOMA",
+        "disorders": [
+          {
+            "name": "Precursors of Cutaneous Melanoma",
+            "sub_disorders": [
+              {
+                "name": "Dysplastic Melanocytic Nevus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Congenital Melanocytic Nevus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cutaneous Melanoma",
+            "sub_disorders": [
+              {
+                "name": "Melanoma in Situ",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Lentigo Maligna Melanoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Superficial Spreading Melanoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Nodular Melanoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Desmoplastic Melanoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Acral Lentiginous Melanoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Amelanotic Melanoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Dermoscopy",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Malignant Melanoma of the Mucosa",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Metastatic Melanoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Staging of Melanoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Prognosis of Melanoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Management of Melanoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 12 PIGMENTARY DISORDERS",
+        "disorders": [
+          {
+            "name": "Vitiligo",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Oculocutaneous Albinism",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Melasma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "EDP, Lichen Planus pigmentosa",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Pigmentary Changes Following Inflammation of the Skin",
+            "sub_disorders": [
+              {
+                "name": "Hyperpigmentation",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Hypopigmentation",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 13 PHOTOSENSITIVITY, PHOTO-INDUCED DISORDERS AND DISORDERS BY IONIZING RADIATION",
+        "disorders": [
+          {
+            "name": "Skin Reactions to Sunlight",
+            "sub_disorders": [
+              {
+                "name": "Acute Sun Damage (Sunburn)",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phototoxic Drug-/Chemical-Induced Photosensitivity",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Phytophotodermatitis (PPD)",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Photoallergic Drug/Chemical-Induced Photosensitivity",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Polymorphous Light Eruption",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Solar Urticaria",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Porphyria Cutanea Tarda",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Photo-Exacerbated Dermatoses",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Chronic Photodamage",
+            "sub_disorders": [
+              {
+                "name": "Dermatoheliosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Solar Lentigo",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Skin Reactions to Ionizing Radiation",
+            "sub_disorders": [
+              {
+                "name": "Radiation Dermatitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Radiation included telangiectasias",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "AVRP",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "part_title": "PART II DERMATOLOGY AND INTERNAL MEDICINE",
+    "sections": [
+      {
+        "section_title": "SECTION 14 THE SKIN IN IMMUNE, AUTOIMMUNE, AUTOINFLAMMATORY AND RHEUMATIC DISORDERS",
+        "disorders": [
+          {
+            "name": "Urticaria and Angioedema",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Erythema Multiforme",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Lichen Planus",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Behçet Disease",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Dermatomyositis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Lupus Erythematosus",
+            "sub_disorders": [
+              {
+                "name": "Systemic Lupus Erythematosus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Subacute Cutaneous Lupus Erythematosus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Chronic Cutaneous Lupus Erythematosus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Perniosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Livedo Reticularis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Raynaud Phenomenon",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Scleroderma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Morphea",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Lichen Sclerosus et Atrophicus",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Vasculitis",
+            "sub_disorders": [
+              {
+                "name": "Hypersensitivity Vasculitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Henoch-Schönlein Purpura",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Polyarteritis Nodosa",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Granulomatous Vasculitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Giant Cell Arteritis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Urticarial Vasculitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Nodular Vasculitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pigmented Purpuric Dermatoses",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Kawasaki Disease",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Reactive Arthritis (Reiter Syndrome)",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Sarcoidosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Systemic Amyloidosis",
+            "sub_disorders": [
+              {
+                "name": "Systemic AL Amyloidosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Systemic AA Amyloidosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Localized Cutaneous Amyloidosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Therapeutics",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 15 ENDOCRINE, METABOLIC AND NUTRITIONAL DISEASES",
+        "disorders": [
+          {
+            "name": "Skin Manifestations of Obesity",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Acanthosis nigricans",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Skin Diseases Associated with Diabetes Mellitus",
+            "sub_disorders": [
+              {
+                "name": "Diabetic Bullae",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "„Diabetic Foot“ and Diabetic Neuropathy",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Diabetic Dermopathy",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Necrobiosis Lipoidica",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cushing Syndrome and Hypercorticism",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Graves Disease and Hyperthyroidism",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Hypothyroidism and Myxedema",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Addison Disease",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Metabolic and Nutritional Conditions",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Xanthomas",
+            "sub_disorders": [
+              {
+                "name": "Xanthelasma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Xanthoma Tendineum",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Xanthoma Tuberosum",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Eruptive Xanthoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Xanthoma Striatum Palmare",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Normolipemic Plane Xanthoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Scurvy",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Acquired Zinc Deficiency and Acrodermatitis Enteropathica",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Pellagra",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Gout",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "Skin Diseases in Pregnancy",
+        "disorders": [
+          {
+            "name": "Cholestasis of Pregnancy",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Pemphigoid Gestationis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Polymorphous Eruption of Pregnancy",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Prurigo of Pregnancy and Atopic Eruption of Pregnancy",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 17 SKIN SIGNS OF VASCULAR INSUFFICIENCY",
+        "disorders": [
+          {
+            "name": "Atherosclerosis, Arterial Insufficiency, and Atheroembolization",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Thromboangiitis Obliterans",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Thrombophlebitis and Deep Venous Thrombosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Chronic Venous Insufficiency/lipodermatosclerosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Most Common Leg/Foot Ulcers",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Livedoid Vasculitis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Chronic Lymphatic Insufficiency",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Pressure Ulcers",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 18 SKIN SIGNS OF RENAL INSUFFICIENCY",
+        "disorders": [
+          {
+            "name": "Classification of Skin Changes",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Calciphylaxis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Nephrogenic Fibrosing Dermopathy",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Acquired Perforating Dermatosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 19 SKIN SIGNS OF SYSTEMIC CANCERS",
+        "disorders": [
+          {
+            "name": "Paraneoplastic disorders",
+            "sub_disorders": [
+              {
+                "name": "Metastatic Cancer to the Skin",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Mammary Paget Disease",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Extramammary Paget Disease",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Peutz-Jeghers Syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Glucagonoma Syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Paraneoplastic Pemphigus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Howel-Evans Syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 20 SKIN SIGNS OF HEMATOLOGIC DISEASE",
+        "disorders": [
+          {
+            "name": "Thrombocytopenic Purpura/ITP",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Disseminated Intravascular Coagulation",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Cryoglobulinemia",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Leukemia Cutis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Histiocytosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Mastocytosis Syndromes",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 21 CUTANEOUS LYMPHOMAS AND SARCOMAS",
+        "disorders": [
+          {
+            "name": "T cell dyscrasias",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Adult T Cell Leukemia/Lymphoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Cutaneous T Cell Lymphoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Mycosis Fungoides",
+            "sub_disorders": [
+              {
+                "name": "Mycosis Fungoides Variants",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Sézary Syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Panniculitis-Like T Cell Lymphoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lymphomatoid Papulosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Cutaneous Anaplastic Large Lymphomas",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Cutaneous B Cell Lymphoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Kaposi Sarcoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Dermatofibrosarcoma Protuberans",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Atypical Fibrosarcoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Angiosarcoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 22 SKIN DISEASES IN ORGAN AND BONE MARROW TRANSPLANTATION",
+        "disorders": [
+          {
+            "name": "Skin Cancers Associated with Organ Transplantation",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Graf-Versus-Host Disease",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 23 ADVERSE CUTANEOUS DRUG REACTIONS",
+        "disorders": [
+          {
+            "name": "Adverse Cutaneous Drug Reactions",
+            "sub_disorders": [
+              {
+                "name": "Exanthematous Drug Reactions",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Pustular Eruptions/Bullous/pseudoporpjyria",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Drug-Induced Acute, Angioedema, Edema, and Anaphylaxis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Fixed Drug Eruption",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Drug Hypersensitivity Syndrome",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Drug-Induced Pigmentation",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "ACDR-Related to Chemotherapy",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "SJS/TEN",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 24 DISORDERS OF PSYCHIATRIC ETIOLOGY",
+        "disorders": [
+          {
+            "name": "Body Dysmorphic Syndrome",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Delusions of Parasitosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Neurotic Excoriations and Trichotillomania",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Factitious Syndromes (Münchhausen Syndrome)",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Cutaneous Signs of Drug Abuse",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "part_title": "PART III DISEASES DUE TO MICROBIAL AGENTS",
+    "sections": [
+      {
+        "section_title": "SECTION 25 BACTERIAL COLONIZATIONS AND INFECTIONS OF SKIN AND SOFT TISSUE",
+        "disorders": [
+          {
+            "name": "Superficial Infections",
+            "sub_disorders": [
+              {
+                "name": "Erythrasma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Pitted Keratolysis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Trichomycosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Intertrigo",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Impetigo",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Deep Infections",
+            "sub_disorders": [
+              {
+                "name": "Abscess, Furuncle, Carbuncle",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Soft-Tissue Infection",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Cellulitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Necrotizing Soft-Tissue Infections (vibrio)",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Lymphangitis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Disorders Caused by Toxin-Producing Bacteria",
+            "sub_disorders": [
+              {
+                "name": "Staphylococcal Scalded Skin Syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Toxic Shock Syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Scarlet Fever",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Cutaneous Anthrax",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cutaneous Diptheria and Nocardia Infections",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Rickettsial Disorders",
+            "sub_disorders": [
+              {
+                "name": "Tick Spotted Fevers",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Rocky Mountain Spotted Fever",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Rickettsialpox",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Infective Endocarditis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Sepsis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Meningococcal Infection",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Bartonella Infectoins",
+            "sub_disorders": [
+              {
+                "name": "Cat-Scratch Disease",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Bacillary Angiomatosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tularemia",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Cutaneous Pseudomonas Aeruginosa Infections",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Mycobacterial Infections",
+            "sub_disorders": [
+              {
+                "name": "Hansen Disease (Leprosy)",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Cutaneous Tuberculosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Nontuberculous Mycobacterial Infections",
+                "sub_disorders": [
+                  {
+                    "name": "Mycobacterium Marinum Infection",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Mycobacterium Ulcerans Infection",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Mycobacterium Fortuitum Complex Infection",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lyme Disease",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 26 FUNGAL INFECTIONS OF THE SKIN, HAIR, AND NAILS",
+        "disorders": [
+          {
+            "name": "Introduction",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Superficial Fungal Infections",
+            "sub_disorders": [
+              {
+                "name": "Candidiasis",
+                "sub_disorders": [
+                  {
+                    "name": "Cutaneous Candidiasis",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Oropharyngeal Candidiasis",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Genital Candidiasis",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Chronic Mucocutaneous Candidiasis",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Disseminated Candidiasis",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tinea Versicolor",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Trichosporon Infectoins",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Tinea Nigra",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Dermatophytoses",
+                "sub_disorders": [
+                  {
+                    "name": "Tinea Pedis",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Tinea Manuum",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Tinea Cruris",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Tinea Corporis",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Tinea Facialis",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  },
+                  {
+                    "name": "Tinea Incognito",
+                    "images": [
+                      "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                      "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dermatophytoses of Hair",
+            "sub_disorders": [
+              {
+                "name": "Tinea Capitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Tinea Barbae",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Majocchi Granuloma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Invasive and Disseminated Fungal Infections",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 27 VIRAL DISEASES OF SKIN AND MUCOSA",
+        "disorders": [
+          {
+            "name": "Introduction",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Poxvirus Diseases",
+            "sub_disorders": [
+              {
+                "name": "Molluscum Contagiosum",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Human Orf",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Milker’s Nodules",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Smallpox",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Smallpox Vaccination",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Human Papillopmavirus Infection",
+            "sub_disorders": [
+              {
+                "name": "Human Papillomavirus: Cutaneous Diseases",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Systemic Viral Infections with Exanthems",
+            "sub_disorders": [
+              {
+                "name": "Rubella",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Measles",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Enteroviral Infections",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Hand-Foot-and-Mouth Disease",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Herpangina",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Erythema Infectiosum",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Gianotti-Crosti Syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Human Herpesvirus 6 and 7 disease",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Dengue",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Chikinguya/Zika",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "COVID",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Herpes Simplex Virus Disease",
+            "sub_disorders": [
+              {
+                "name": "Nongenital Herpes Simplex",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Neonatal Herpes Simplex",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Eczema Herpeticum",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Herpes Simplex with Host Defense Defects (Granulomatous)",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Varicella Zoster Virus Disease",
+            "sub_disorders": [
+              {
+                "name": "Varicella",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Herpes Zoster",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "VZV: Host Defense Defect",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Human Immunodeficiency Virus Disease",
+            "sub_disorders": [
+              {
+                "name": "Acute HIV Syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Eosinophilic Folliculitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Papular Pruritic Eruption of HIV",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Oral Hairy Leukoplakia",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Adverse Cutaneous Drug Eruptions in HIV Disease",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Variations in Common Mucocutaneous Disorders in HIV Disease",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 28 ARTHROPOD BITES, STINGS, AND CUTANEOUS INFECTIONS",
+        "disorders": [
+          {
+            "name": "Infestations and Cutaneous Reactions to Arthropod Bites",
+            "sub_disorders": [
+              {
+                "name": "Pediculosis Capitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Pediculosis Corporis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Pediculosis Pubis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Demodicidosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Scabies",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Cutaneous Larva Migrans",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Tunga",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Water-Associated Diseases",
+            "sub_disorders": [
+              {
+                "name": "Schistosome Cercarial Dermatitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Seabether’s Eruption",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Hot tub folliculitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 29 SYSTEMIC PARASITIC INFECTIONS",
+        "disorders": [
+          {
+            "name": "Leishmaniasis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Human Trypanosomiasis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 30 SEXUALLY TRANSMITTED DISEASES",
+        "disorders": [
+          {
+            "name": "Human Papillomavirus: Anogenital Infections",
+            "sub_disorders": [
+              {
+                "name": "Genital Warts",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "HPV: Squamous Cell Carcinoma in Situ (SCCIS) and Invasive",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "SCC of Anogenital Skin",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Herpes Simplex Virus: Genital Disease",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Neisseria Gonorrhoeae: Gonorrhea",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Syphilis",
+            "sub_disorders": [
+              {
+                "name": "Primary Syphilis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Secondary Syphilis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Latent Syphilis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Tertiary/Late Syphilis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Congenital Syphilis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lymphogranuloma Venereum",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Chancroid",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Donovaniosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "part_title": "PART IV SKIN SIGNS OF HAIR, NAIL, AND MUCOSAL DISORDERS",
+    "sections": [
+      {
+        "section_title": "SECTION 31 DISORDERS OF HAIR FOLLICLES AND RELATED DISORDERS",
+        "disorders": [
+          {
+            "name": "Biology of Hair Growth Cycles",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Hair Loss: Alopecia",
+            "sub_disorders": [
+              {
+                "name": "Pattern Hair Loss",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Alopecia Areata",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Telogen Effluvium",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Anagen Effluvium",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Cicatricial or Scarring Alopecia",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Excess Hair Growth",
+            "sub_disorders": [
+              {
+                "name": "Hirsutism",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Hypertrichosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Infectious Folliculitis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 32 DISORDERS OF THE NAIL APPARATUS",
+        "disorders": [
+          {
+            "name": "Normal Nail Apparatus",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "MCD nail",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Nail Apparatus Involvement of Cutaneous Diseases",
+            "sub_disorders": [
+              {
+                "name": "Psoriasis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Lichen Planus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Alopecia Areata",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Darier Disease (Darier-White-Disease, Keratosis Follicularis)",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Neoplasms of the Nail Apparatus",
+            "sub_disorders": [
+              {
+                "name": "Myxoid Cysts of Digits",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Longitudinal Melanonychia/erythronychia",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Periungual fibroma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Infections of the Nail Apparatus",
+            "sub_disorders": [
+              {
+                "name": "Parononychia",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Onycomyosis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Green nail disease",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Nail Signs of Multisystem Disease",
+            "sub_disorders": [
+              {
+                "name": "Transverse or Beau Lines",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Leukonychia",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Yellow Nail Syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Pterygium",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Nail patella syndrome",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Koilonycia",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Clubbed nails",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Drug-Induced Nail Changes",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 33 DISORDERS OF THE MOUTH",
+        "disorders": [
+          {
+            "name": "Diseases of the Lips",
+            "sub_disorders": [
+              {
+                "name": "Angular Cheilitis (Perlèche)",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Actinic Cheilitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Granulomatous cheilitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Conditions of the Tongue, Palate, and Mandible",
+            "sub_disorders": [
+              {
+                "name": "Fissured Tongue",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Black and White Hairy Tongue",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Oral Hairy Leukoplakia",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Migratory Glossitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Median Rhomboid glossitis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Palate and Mandibular Torus",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Diseases of the Gingiva, Periodontium, and Mucous Membranes",
+            "sub_disorders": [
+              {
+                "name": "Gingivitis and Periodontitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Lichen Planus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Acute Necrotizing Ulcerative Gingivitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Gingival Hyperplasia",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Aphthous Ulceration",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Leukoplakia, erythroplakia",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Premalignant and Malignant Neoplasms",
+            "sub_disorders": [
+              {
+                "name": "Squamous Cell Carcinoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Oral Verrucous Carcinoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Submucosal Nodules",
+            "sub_disorders": [
+              {
+                "name": "Mucocele",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Irritation Fibroma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Cutaneous Odontogenic (Dental) Abscess",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cutaneous Disorders Involving the Mouth",
+            "sub_disorders": [
+              {
+                "name": "Pemphigus Vulgaris",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Paraneoplastic Pemphigus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Bullous Pemphigoid",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Lupus Erythematosus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Stevens-Johnson Syndrome/Toxic Epidermal Necrolysis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 33 DISORDERS OF THE GENITALIA, PERINEUM AND ANUS",
+        "disorders": [
+          {
+            "name": "Pearly Penile Papules",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Sebaceous Gland Prominence",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Angiokeratoma",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Sclerosing Lymphangitis of Penis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Lymphedema of the Genitalia",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Plasma Cell Balanitis and Vulvitis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Phimosis, Paraphimosis",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Mucocutaneous Disorders",
+            "sub_disorders": [
+              {
+                "name": "Genital (Penile(Vulvar/Anal) Lentiginoses",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Vitiligo and Leukoderma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Psoriasis Vulgaris",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Lichen Planus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Lichen Sclerosus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Genital Aphthous Ulcerations",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Eczematous Dermatitis",
+            "sub_disorders": [
+              {
+                "name": "Allergic Contact Dermatitis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Atopic Dermatitis, Lichen Simplex Chronicus, Pruritus Ani",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Fixed Drug Eruption",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          },
+          {
+            "name": "Premalignant and Malignant Lesions",
+            "sub_disorders": [
+              {
+                "name": "Squamous Cell Carcinoma in Situ",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "HPV-Induced Intraepithelial Neoplasia and Squamous Cell Carcinoma in Situ",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Invasive Anogenital Squamous Cell Carcinoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Invasive SCC of Penis",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Invasive SCC of Vulva",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Invasive SCC of Cutaneous Anus",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Genital Verrucous Carcinoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Malignant Melanoma of the Anogenital Region",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Extramammary Paget Disease",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              },
+              {
+                "name": "Kaposi Sarcoma",
+                "images": [
+                  "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                  "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Anogenital Infections",
+            "images": [
+              "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+              "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

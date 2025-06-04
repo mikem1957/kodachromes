@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px 20px 20px;
+      background: #f9f9f9;
+      margin: 0;
+    }
+
+    #controls {
+      max-width: 400px;
+      margin: 0 auto 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    #categoryCombo {
+      width: 100%;
+      padding: 12px 20px;
+      margin-bottom: 10px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: 0.3s ease;
+      box-sizing: border-box;
+    }
+
+    #categoryCombo:focus {
+      outline: none;
+      border-color: #4a90e2;
+      box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+    }
+
+    /* Clean category title - no box or background */
+    #categoryTitle {
+      font-size: 26px;
+      font-weight: 700;
+      color: #007BFF !important; /* Set to a vibrant blue and important for visibility test */
+      padding: 0;
+      margin: 20px 0;
+      text-align: center;
+      user-select: none;
+      width: 100%;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 0.04em;
+      background: none;
+      box-shadow: none;
+      border-radius: 0;
+
+      /* --- Aggressive overrides to force visibility --- */
+      display: block !important;
+      visibility: visible !important;
+      height: auto !important;
+      min-height: 30px !important; /* Ensure it has some height */
+      opacity: 1 !important;
+      z-index: 9999 !important; /* Bring to front */
+      position: relative !important; /* Ensure z-index works, without changing flow too much */
+      /* --- End aggressive overrides --- */
+    }
+
+    #results {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 150px;
+    }
+
+    #results img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+
+    #results img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Password modal styles unchanged */
+    .password-modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 25px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      max-width: 300px;
+      width: 90%;
+    }
+
+    .modal-content h3 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .modal-content input[type="password"] {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .modal-content button {
+      padding: 10px 15px;
+      margin: 0 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: background-color 0.2s;
+    }
+
+    #submitPassword {
+      background-color: #4a90e2;
+      color: white;
+    }
+
+    #submitPassword:hover {
+      background-color: #357ABD;
+    }
+
+    #cancelPassword {
+      background-color: #ccc;
+      color: #333;
+    }
+
+    #cancelPassword:hover {
+      background-color: #bbb;
+    }
+
+    #passwordError {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <input
+      type="text"
+      id="categoryCombo"
+      list="categoryOptions"
+      placeholder="Select or type diagnosis..."
+      oninput="handleCategoryInput()"
+      onchange="handleCategoryChange()"
+    />
+    <datalist id="categoryOptions"></datalist>
+    <h2 id="categoryTitle"></h2>
+  </div>
+  <div id="results"></div>
+
+  <script>
+    const images = [];
+    let observer;
+    const SESSION_AUTH_KEY = 'authenticated';
+    sessionStorage.setItem(SESSION_AUTH_KEY, 'true');
+
+    // Variable to store the selected category for the main title display
+    let selectedCategoryForTitle = '';
+
+    function showPasswordPromptModal(protectedImageUrl) {
+      if (document.querySelector('.password-modal')) return;
+
+      const modal = document.createElement('div');
+      modal.className = 'password-modal';
+      modal.innerHTML = `
+        <div class="modal-content">
+          <h3>Enter Password</h3>
+          <input type="password" id="passwordInput" placeholder="Password" />
+          <button id="submitPassword">Access</button>
+          <button id="cancelPassword">Cancel</button>
+          <p id="passwordError"></p>
+        </div>`;
+      document.body.appendChild(modal);
+
+      document.getElementById('passwordInput').focus();
+
+      modal.querySelector('#submitPassword').onclick = () => {
+        const entered = modal.querySelector('#passwordInput').value;
+        if (entered === "MikeMikailov") {
+          const win = window.open(addCacheBust(protectedImageUrl), '_blank');
+          if (!win) {
+            modal.querySelector('#passwordError').textContent = "Popup blocked!";
+          } else {
+            sessionStorage.setItem(SESSION_AUTH_KEY, 'true');
+            modal.remove();
+          }
+        } else {
+          modal.querySelector('#passwordError').textContent = "Incorrect password.";
+        }
+      };
+
+      modal.querySelector('#cancelPassword').onclick = () => modal.remove();
+    }
+
+    async function fetchImages() {
+      try {
+        const response = await fetch(`https://raw.githubusercontent.com/mikem1957/kodachromes/main/all_images.json?_t=${Date.now()}`);
+        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+        const data = await response.json();
+        images.push(...data);
+        populateCategories();
+      } catch (e) {
+        document.getElementById('results').innerHTML = `<p style="color:red">Error loading images. Try again later.</p>`;
+        console.error(e);
+      }
+    }
+
+    function populateCategories() {
+      const options = [...new Set(images.map(img => img.category))].sort();
+      const list = document.getElementById('categoryOptions');
+      list.innerHTML = '';
+      options.forEach(cat => {
+        if (cat) {
+          const opt = document.createElement('option');
+          opt.value = cat;
+          list.appendChild(opt);
+        }
+      });
+    }
+
+    function setupLazyLoadObserver() {
+      if ('IntersectionObserver' in window) {
+        observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const img = entry.target;
+              img.src = img.dataset.src;
+              obs.unobserve(img);
+            }
+          });
+        }, { rootMargin: '0px 0px 100px 0px' });
+      }
+    }
+
+    function addCacheBust(url) {
+      return `${url}${url.includes('?') ? '&' : '?'}_cb=${Date.now()}`;
+    }
+
+    // Helper function to update the main category title
+    function updateCategoryTitle(category) {
+      const categoryTitleElement = document.getElementById('categoryTitle');
+      if (category) {
+        categoryTitleElement.textContent = `${category}`;
+      } else {
+        categoryTitleElement.textContent = '';
+      }
+    }
+
+    function handleCategoryInput() {
+      const val = document.getElementById('categoryCombo').value.trim();
+      const validOptions = Array.from(document.getElementById('categoryOptions').options).map(opt => opt.value);
+      const isValid = validOptions.includes(val);
+
+      if (isValid) {
+        // As user types a valid option, temporarily show it as the title.
+        updateCategoryTitle(val ? `${val}` : '');
+        searchImages(val.toLowerCase());
+      } else {
+        // If user is typing something invalid, clear the temporary title
+        updateCategoryTitle('');
+        searchImages(val.toLowerCase());
+      }
+    }
+
+    function handleCategoryChange() {
+      const val = document.getElementById('categoryCombo').value.trim();
+      if (val) {
+        // IMPORTANT: Store the selected category value here.
+        selectedCategoryForTitle = val;
+        updateCategoryTitle(selectedCategoryForTitle); // Display the title using the stored value
+        searchImages(val.toLowerCase()); // Filter images based on selection
+      } else {
+        // If the input box is manually cleared by the user
+        selectedCategoryForTitle = ''; // Clear the stored category
+        updateCategoryTitle(''); // Clear the displayed title
+        searchImages(''); // Show all images (or clear results if preferred)
+      }
+      // Always clear the combo box after the change event has processed
+      document.getElementById('categoryCombo').value = '';
+    }
+
+    function searchImages(filter = '') {
+      const results = document.getElementById('results');
+      results.innerHTML = '';
+      if (observer) observer.disconnect();
+      setupLazyLoadObserver();
+
+      const filtered = images.filter(img => img.category?.toLowerCase().includes(filter));
+      if (!filtered.length) {
+        results.innerHTML = '<p>No results found for this diagnosis.</p>';
+        // Even if no results, ensure the main title stays based on `selectedCategoryForTitle`
+        updateCategoryTitle(selectedCategoryForTitle);
+        return;
+      }
+
+      filtered.forEach(img => {
+        const container = document.createElement('div');
+        container.className = 'image-container';
+
+        const image = document.createElement('img');
+        image.src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
+        image.dataset.src = addCacheBust(img.thumb);
+        image.alt = img.name;
+        image.onclick = () => {
+          if (sessionStorage.getItem(SESSION_AUTH_KEY) === 'true') {
+            window.open(addCacheBust(img.url), '_blank');
+          } else {
+            showPasswordPromptModal(img.url);
+          }
+        };
+
+        if (observer) observer.observe(image);
+        else image.src = addCacheBust(img.thumb);
+
+        container.appendChild(image);
+        results.appendChild(container);
+      });
+
+      // After filtering and rendering images, ensure the title is updated.
+      // This is crucial because `selectedCategoryForTitle` holds the value even after the input box clears.
+      updateCategoryTitle(selectedCategoryForTitle);
+    }
+
+    document.addEventListener('DOMContentLoaded', fetchImages);
+  </script>
+</body>
+</html>

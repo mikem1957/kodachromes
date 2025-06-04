@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <style>
+    :root {
+      --flex-container-max-width: 1200px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    #controls {
+      width: 100%;
+      max-width: var(--flex-container-max-width);
+      margin: 0 auto 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+
+    #categoryCombo {
+      width: 100%;
+      padding: 12px 20px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #flex-container {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      max-width: var(--flex-container-max-width);
+      margin: 0 auto;
+    }
+
+    #tableOfContents {
+      width: 250px;
+      padding: 15px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      position: sticky;
+      top: 20px;
+      align-self: flex-start;
+      max-height: calc(100vh - 40px);
+      overflow-y: auto;
+    }
+
+    #tableOfContents h3 {
+      margin-top: 0;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    #categoryList {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #categoryList li a {
+      display: block;
+      padding: 8px 10px;
+      background-color: #e0e0e0;
+      text-decoration: none;
+      border-radius: 5px;
+      color: #333;
+      margin-bottom: 5px;
+      font-weight: 500;
+      white-space: nowrap; /* Prevent wrapping for long category names */
+      overflow: hidden; /* Hide overflow */
+      text-overflow: ellipsis; /* Show ellipsis for truncated text */
+    }
+
+    #categoryList li a.active {
+      background-color: #4a90e2;
+      color: white;
+    }
+
+    #results {
+      flex-grow: 1;
+      padding: 15px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+     /* Main category title - now inside #results */
+    #currentCategoryTitle {
+      font-size: 32px; /* Increased font size for prominence */
+      font-weight: 800 !important; /* Even bolder */
+      color: #0056b3 !important; /* Retaining !important for main color */
+      padding: 15px 0; /* More padding for breathing room */
+      margin: 0 0 30px 0; /* Increased bottom margin */
+      text-align: center;
+      user-select: none;
+      width: 100%;
+      font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Added Montserrat as a primary font, with fallbacks */
+      letter-spacing: 0.1em; /* Increased letter spacing for a grander feel */
+      text-transform: uppercase; /* All caps for strong emphasis */
+      border-bottom: 4px solid #007BFF; /* Thicker, vibrant blue underline */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* More pronounced text shadow */
+      background: linear-gradient(to right, #eaf6ff, #ffffff, #eaf6ff); /* Soft blue-to-white gradient */
+      border-radius: 10px 10px 0 0; /* Slightly more rounded top corners */
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Larger, softer box shadow */
+      flex-shrink: 0 !important; /* Retaining !important */
+
+      /* Aggressive overrides for visibility (retained !important) */
+      display: block !important;
+      visibility: visible !important;
+      height: auto !important;
+      min-height: 40px !important; /* Slightly taller min-height */
+      opacity: 1 !important;
+      z-index: 9999 !important;
+      position: relative !important;
+    }
+
+
+    #image-grid-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .image-container {
+      flex: 1 1 150px;
+      max-width: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #f0f0f0;
+      border-top: 1px solid #ddd;
+      font-size: 14px;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      #flex-container {
+        flex-direction: column;
+      }
+
+      #tableOfContents {
+        width: 100%;
+        position: static;
+        max-height: 40vh;
+      }
+
+      #controls {
+          max-width: 100%; /* Ensure controls match mobile width */
+          padding: 10px 20px;
+      }
+
+      .image-container {
+        flex: 1 1 calc(50% - 7.5px);
+        max-width: calc(50% - 7.5px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="controls">
+      <input
+        type="text"
+        id="categoryCombo"
+        list="categoryOptions"
+        placeholder="Select or type diagnosis..."
+        oninput="handleCategoryInput()"
+        onchange="handleCategoryChange()"
+      />
+      <datalist id="categoryOptions"></datalist>
+    </div>
+
+    <div id="flex-container">
+      <div id="tableOfContents">
+        <h3>Diagnoses</h3>
+        <ul id="categoryList"></ul>
+      </div>
+      <div id="results">
+        <h2 id="currentCategoryTitle"></h2>
+        <div id="image-grid-container"></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Beacon Hill Vision - All rights reserved.
+  </footer>
+
+  <script>
+    const images = [];
+    let allCategories = []; // Store unique categories for validation
+
+    const SESSION_AUTH_KEY = 'authenticated';
+    sessionStorage.setItem(SESSION_AUTH_KEY, 'true'); // Automatically authenticate for demonstration
+
+    /**
+     * Fetches image data from the JSON file.
+     */
+    async function fetchImages() {
+      try {
+        const res = await fetch("https://raw.githubusercontent.com/mikem1957/kodachromes/main/all_images.json?_t=" + Date.now());
+        if (!res.ok) {
+          throw new Error(`HTTP error! Status: ${res.status}`);
+        }
+        const data = await res.json();
+        images.push(...data);
+        populateCategories();
+      } catch (err) {
+        console.error("Error fetching images:", err);
+        document.getElementById('image-grid-container').innerHTML = `<p style="color: red; text-align: center; width: 100%;">Failed to load images. Please check the console for details.</p>`;
+        document.getElementById('currentCategoryTitle').textContent = "Error Loading Data";
+      }
+    }
+
+    /**
+     * Populates the category list in the TOC and the datalist for the search input.
+     */
+    function populateCategories() {
+      allCategories = [...new Set(images.map(img => img.category))].filter(Boolean).sort();
+      const list = document.getElementById('categoryList');
+      const datalist = document.getElementById('categoryOptions');
+
+      list.innerHTML = '';
+      datalist.innerHTML = '';
+
+      for (const category of allCategories) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.textContent = category;
+        a.href = '#';
+        a.onclick = (e) => {
+          e.preventDefault();
+          setCategory(category);
+        };
+        li.appendChild(a);
+        list.appendChild(li);
+
+        const option = document.createElement('option');
+        option.value = category;
+        datalist.appendChild(option);
+      }
+    }
+
+    /**
+     * Sets the currently displayed category, updates the title, highlights the TOC link,
+     * and filters the images.
+     * @param {string} category The category to display. Can be an empty string to show initial message.
+     */
+    function setCategory(category) {
+      const currentCategoryTitleElement = document.getElementById('currentCategoryTitle');
+      const imageGridContainer = document.getElementById('image-grid-container');
+
+      imageGridContainer.innerHTML = ''; // Clear previous images
+
+      if (!category || !allCategories.includes(category)) {
+        currentCategoryTitleElement.textContent = '';
+        imageGridContainer.innerHTML = '<p style="width: 100%; text-align: center; color:#666;">Please select a diagnosis from the left or type above.</p>';
+        document.querySelectorAll('#categoryList a').forEach(a => a.classList.remove('active'));
+        return;
+      }
+
+      currentCategoryTitleElement.textContent = `${category}`;
+
+      document.querySelectorAll('#categoryList a').forEach(a => {
+        a.classList.toggle('active', a.textContent === category);
+      });
+
+      const filtered = images.filter(img => img.category === category);
+
+      if (filtered.length === 0) {
+        imageGridContainer.innerHTML = `<p style="width: 100%; text-align: center; color:#666;">No results found for diagnosis: "${category}".</p>`;
+        return;
+      }
+
+      for (const img of filtered) {
+        const div = document.createElement('div');
+        div.className = 'image-container';
+        const image = document.createElement('img');
+        image.src = img.thumb;
+        image.alt = img.name;
+        image.title = img.name;
+        image.onclick = () => handleImageClick(img);
+        div.appendChild(image);
+        imageGridContainer.appendChild(div);
+      }
+    }
+
+    /**
+     * Handles input changes in the category search box (oninput event).
+     * Checks if the typed value exactly matches a category and updates the display.
+     */
+    function handleCategoryInput() {
+      const val = document.getElementById('categoryCombo').value.trim();
+      if (allCategories.includes(val)) {
+        setCategory(val);
+      } else if (val === '') {
+        setCategory('');
+      }
+    }
+
+    /**
+     * Handles the 'change' event for the category search box.
+     * This fires when the user selects an option from the datalist, types a full category name and blurs,
+     * or presses Enter.
+     */
+    function handleCategoryChange() {
+      const val = document.getElementById('categoryCombo').value.trim();
+      setCategory(val);
+      document.getElementById('categoryCombo').value = '';
+    }
+
+    /**
+     * Handles the click event on an image, checking for protection.
+     * @param {object} img The image object.
+     */
+    function handleImageClick(img) {
+      if (img.protected && sessionStorage.getItem(SESSION_AUTH_KEY) !== 'true') {
+        alert("This image is password protected. Please implement a proper password prompt.");
+        return;
+      }
+      window.open(img.url, '_blank');
+    }
+
+    // Initialize the gallery when the DOM is fully loaded
+    document.addEventListener('DOMContentLoaded', () => {
+      fetchImages().then(() => {
+          setCategory('');
+      });
+    });
+  </script>
+</body>
+</html>

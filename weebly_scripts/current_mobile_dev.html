@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+
+        #searchBox, #categorySelect {
+            width: 100%;
+            max-width: 400px;
+            padding: 12px 20px;
+            margin-bottom: 10px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease;
+        }
+
+        #searchBox:focus, #categorySelect:focus {
+            outline: none;
+            border-color: #4a90e2;
+            box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+        }
+
+        #searchButton {
+            padding: 10px 20px;
+            margin-left: 10px;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #searchButton:hover {
+            background-color: #357ABD;
+        }
+
+        #results {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .image-container { /* New style for the container */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 150px; /* Match image width for consistent layout */
+        }
+
+        #results img {
+            width: 150px;
+            height: 150px; /* Added height for consistent lazy loading display */
+            object-fit: cover; /* Ensures images fill the space nicely */
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+
+        #results img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .image-name { /* New style for the image name */
+            font-size: 12px;
+            color: #555;
+            margin-top: 5px;
+            word-break: break-word; /* Allow long names to wrap */
+        }
+
+        /* Password Modal Styles */
+        .password-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000; /* Ensure modal is on top */
+        }
+
+        .password-modal .modal-content {
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            max-width: 300px;
+            width: 90%;
+        }
+
+        .password-modal .modal-content h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .password-modal .modal-content input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .password-modal .modal-content button {
+            padding: 10px 15px;
+            margin: 0 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: background-color 0.2s;
+        }
+
+        .password-modal .modal-content #submitPassword {
+            background-color: #4a90e2;
+            color: white;
+        }
+
+        .password-modal .modal-content #submitPassword:hover {
+            background-color: #357ABD;
+        }
+
+        .password-modal .modal-content #cancelPassword {
+            background-color: #ccc;
+            color: #333;
+        }
+
+        .password-modal .modal-content #cancelPassword:hover {
+            background-color: #bbb;
+        }
+
+        .password-modal .modal-content #passwordError {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="searchBox" placeholder="Search for image(s) ..." onkeydown="handleEnter(event)">
+    <select id="categorySelect">
+        <option value="">All Diagnoses (Categories)</option>
+    </select>
+    <button id="searchButton">Search</button>
+
+    <div id="results"></div>
+
+    <script>
+        const images = [];
+        let observer; // Declare observer globally or in a scope accessible by setupLazyLoadObserver and searchImages
+
+        // A key to store our session authentication flag in sessionStorage
+        const SESSION_AUTH_KEY = 'authenticated';
+
+        // --- Password Prompt Modal Function ---
+        // This function MUST be defined before it is called by searchImages
+        function showPasswordPromptModal(protectedImageUrl) {
+            // Check if modal already exists to prevent multiple modals
+            if (document.querySelector('.password-modal')) {
+                return; // Modal is already open, do nothing
+            }
+
+            const modal = document.createElement('div');
+            modal.classList.add('password-modal');
+            modal.innerHTML = `
+                <div class="modal-content">
+                    <h3>Enter Password</h3>
+                    <input type="password" id="passwordInput" placeholder="Password">
+                    <button id="submitPassword">Access</button>
+                    <button id="cancelPassword">Cancel</button>
+                    <p id="passwordError" style="color: red;"></p>
+                </div>
+            `;
+            document.body.appendChild(modal);
+
+            const passwordInput = modal.querySelector('#passwordInput');
+            const submitButton = modal.querySelector('#submitPassword');
+            const cancelButton = modal.querySelector('#cancelPassword');
+            const errorParagraph = modal.querySelector('#passwordError');
+
+            // *WARNING: For demonstration only. Never hardcode passwords in client-side JS for production!*
+            const PREDEFINED_PASSWORD = "MikeMikailov";
+
+            submitButton.onclick = () => {
+                const enteredPassword = passwordInput.value;
+
+                if (enteredPassword === PREDEFINED_PASSWORD) {
+                    console.log("✅ Correct password entered");
+
+                    // Open popup immediately before removing the modal
+                    // This is crucial for avoiding browser popup blockers
+                    const win = window.open('', '_blank');
+
+                    if (win) {
+                        try {
+                            win.location.href = protectedImageUrl;
+                            // Set session storage flag on successful authentication
+                            sessionStorage.setItem(SESSION_AUTH_KEY, 'true');
+                            // Remove the modal from the DOM after successfully opening the window
+                            modal.remove();
+                            console.log("✅ Modal removed after opening image");
+                        } catch (err) {
+                            console.error("❌ Failed to set win.location:", err);
+                            errorParagraph.textContent = "Could not open image. Check console for details.";
+                            // In case of error, still remove modal so user can try again
+                            modal.remove();
+                        }
+                    } else {
+                        console.warn("❌ Popup blocked by browser.");
+                        errorParagraph.textContent = "Popup blocked! Please allow popups for this site.";
+                    }
+                } else {
+                    errorParagraph.textContent = "Incorrect password.";
+                }
+            };
+
+            cancelButton.onclick = () => {
+                modal.remove(); // Close the modal
+            };
+        }
+        // --- END Password Prompt Modal Function ---
+
+        async function fetchImages() {
+            try {
+                const jsonUrl = `https://raw.githubusercontent.com/mikem1957/kodachromes/main/all_images.json?_t=${new Date().getTime()}`;
+                const response = await fetch(jsonUrl);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                images.push(...data);
+                console.log('Images array filled:', images); // Check if images are here
+                populateCategories(); // Call populateCategories after images are fetched
+            } catch (error) {
+                console.error('Error fetching images:', error);
+                document.getElementById('results').innerHTML = '<p style="color: red;">Error loading images. Please try again later.</p>';
+            }
+        }
+
+        function populateCategories() {
+            const categorySelect = document.getElementById('categorySelect');
+            const categories = [...new Set(images.map(img => img.category))].sort();
+            console.log('Categories to populate:', categories); // Check the categories array
+
+            categories.forEach(cat => {
+                if (cat) {
+                    const option = document.createElement('option');
+                    option.value = cat;
+                    option.textContent = cat;
+                    categorySelect.appendChild(option);
+                }
+            });
+            console.log('Category select options updated.'); // Check if this line is reached
+        }
+
+        // Event listener attachment, after all functions are defined
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchImages(); // Start fetching images when the page loads
+            document.getElementById('searchButton').addEventListener('click', searchImages);
+        });
+
+        function handleEnter(event) {
+            if (event.key === "Enter") {
+                searchImages();
+            }
+        }
+
+        function setupLazyLoadObserver() {
+            if ("IntersectionObserver" in window) {
+                if (observer) { // Disconnect existing observer if it exists
+                    observer.disconnect();
+                }
+                observer = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const imgEl = entry.target;
+                            // Only set src if it's not already set to the final URL
+                            if (!imgEl.src.includes(imgEl.dataset.src)) { // Prevents re-setting if already loaded
+                                imgEl.src = imgEl.dataset.src;
+                            }
+                            observer.unobserve(imgEl);
+                        }
+                    });
+                }, {
+                    rootMargin: '0px 0px 100px 0px' // Load images 100px before they enter the viewport
+                });
+            } else {
+                console.warn("Intersection Observer not supported. Images will load normally.");
+            }
+        }
+
+
+        function addCacheBust(url) {
+            const timestamp = new Date().getTime();
+            if (url.includes('?')) {
+                return `${url}&_cb=${timestamp}`;
+            } else {
+                return `${url}?_cb=${timestamp}`;
+            }
+        }
+        
+        function searchImages() {
+            const query = document.getElementById('searchBox').value.trim().toLowerCase();
+            const category = document.getElementById('categorySelect').value;
+            const results = document.getElementById('results');
+            results.innerHTML = ''; // Clear previous results
+
+            // Disconnect previous observers before clearing results
+            if (observer) {
+                observer.disconnect();
+            }
+
+            const filtered = images.filter(img =>
+                (query === '' || img.name.toLowerCase().includes(query)) &&
+                (category === '' || img.category === category)
+            );
+
+            if (filtered.length === 0) {
+                results.innerHTML = '<p>No results found.</p>';
+                return;
+            }
+
+            setupLazyLoadObserver(); // Setup the observer every time a new search is performed
+
+            filtered.forEach(img => {
+                const imageContainer = document.createElement('div');
+                imageContainer.classList.add('image-container');
+
+                const imgEl = document.createElement('img');
+                // Use a tiny transparent GIF as a placeholder for lazy loading
+                imgEl.src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
+                imgEl.dataset.src = addCacheBust(img.thumb); // This is the actual thumbnail URL for lazy loading
+                imgEl.alt = img.name;
+                imgEl.classList.add('lazy');
+
+                // --- Event listener for clicking the thumbnail ---
+                imgEl.addEventListener('click', (event) => {
+                    event.preventDefault(); // Stop the default link behavior
+                    event.stopPropagation(); // Stop the event from bubbling up
+
+                    // Check session storage for authentication status
+                    if (sessionStorage.getItem(SESSION_AUTH_KEY) === 'true') {
+                        // If already authenticated, directly open the full image
+                        window.open(addCacheBust(img.url), '_blank');
+                    } else {
+                        // Otherwise, show the password prompt
+                        showPasswordPromptModal(addCacheBust(img.url));
+                    }
+                });
+
+                // Observe image for lazy loading, or load directly if observer not supported
+                if (observer) {
+                    observer.observe(imgEl);
+                } else {
+                    imgEl.src = addCacheBust(img.thumb); // Fallback for no IntersectionObserver
+                }
+
+                const nameEl = document.createElement('p');
+                nameEl.classList.add('image-name');
+                nameEl.textContent = img.name;
+
+                // Append image and name to the container
+                imageContainer.appendChild(imgEl); // Removed 'a' tag as click handled by JS
+                imageContainer.appendChild(nameEl);
+                results.appendChild(imageContainer);
+            });
+        }
+    </script>
+
+</body>
+</html>

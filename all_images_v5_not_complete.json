@@ -1,0 +1,151 @@
+{
+    "Dermatology": {
+        "Conditions": {
+            "Inflammatory": [
+                "Atopic Dermatitis",
+                "Psoriasis",
+                "Seborrheic Dermatitis",
+                "Lichen Planus",
+                "Hidradenitis Suppurativa"
+            ],
+            "Infectious": [
+                "Bacterial",
+                "Fungal",
+                "Viral",
+                "Parasitic"
+            ],
+            "Neoplastic": {
+                "Benign": [
+                    "Seborrheic Keratosis",
+                    "Cherry Angioma",
+                    "Lipoma"
+                ],
+                "Malignant": [
+                    "Basal Cell Carcinoma",
+                    "Squamous Cell Carcinoma",
+                    "Melanoma"
+                ]
+            },
+            "Autoimmune": [
+                "Lupus",
+                "Dermatomyositis",
+                "Pemphigus Vulgaris",
+                "Bullous Pemphigoid"
+            ],
+            "Genetic": [
+                "Ichthyosis",
+                "Epidermolysis Bullosa",
+                "Tuberous Sclerosis"
+            ],
+            "Pigmentary": [
+                "Vitiligo",
+                "Melasma",
+                "Post-inflammatory Hyperpigmentation"
+            ],
+            "Hair and Nail Disorders": [
+                "Alopecia Areata",
+                "Androgenetic Alopecia",
+                "Onychomycosis"
+            ],
+            "Other": [
+                "Rosacea",
+                "Acne",
+                "Urticaria"
+            ]
+        },
+        "Procedures": {
+            "Biopsy": [
+                "Punch",
+                "Shave",
+                "Excisional"
+            ],
+            "Surgical": [
+                "Excision",
+                "Mohs Surgery"
+            ],
+            "Laser": [
+                "CO2",
+                "Pulsed Dye",
+                "Nd:YAG",
+                "Fractional"
+            ],
+            "Phototherapy": [
+                "Narrowband UVB",
+                "PUVA"
+            ],
+            "Cryotherapy": [],
+            "Electrosurgery": [],
+            "Microneedling": [],
+            "Chemical Peels": [],
+            "Dermabrasion": []
+        },
+        "Devices": {
+            "Laser": [
+                "CO2",
+                "Pulsed Dye",
+                "Nd:YAG",
+                "Fractional"
+            ],
+            "Phototherapy Units": [],
+            "Cryotherapy Devices": [],
+            "Electrosurgical Units": [],
+            "Microneedling Pens": [],
+            "Imaging Devices": [
+                "Dermatoscopes",
+                "Total Body Photography",
+                "Confocal Microscopy"
+            ]
+        },
+        "Treatments": {
+            "Topical": [
+                "Corticosteroids",
+                "Calcineurin Inhibitors",
+                "Retinoids",
+                "Antibiotics",
+                "Antifungals"
+            ],
+            "Oral/Systemic": [
+                "Immunosuppressants",
+                "Biologics",
+                "Retinoids",
+                "Antibiotics",
+                "Antifungals"
+            ],
+            "Injectables": [
+                "Biologics",
+                "Corticosteroids",
+                "Botulinum Toxin",
+                "Fillers"
+            ]
+        },
+        "Anatomy": {
+            "Skin Layers": [
+                "Epidermis",
+                "Dermis",
+                "Subcutis"
+            ],
+            "Adnexal Structures": [
+                "Hair Follicles",
+                "Sebaceous Glands",
+                "Sweat Glands"
+            ],
+            "Regions": [
+                "Scalp",
+                "Face",
+                "Neck",
+                "Trunk",
+                "Extremities",
+                "Hands",
+                "Feet",
+                "Nails",
+                "Mucosa"
+            ]
+        },
+        "Special Populations": {
+            "Pediatric": [],
+            "Geriatric": [],
+            "Pregnant": [],
+            "Skin of Color": []
+        }
+    }
+}

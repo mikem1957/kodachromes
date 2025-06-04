@@ -1,0 +1,1875 @@
+[
+  {
+    "part_title": "PART I DISORDERS PRESENTING IN THE SKIN AND MUCOUS MEMBRANES",
+    "sections": [
+      {
+        "section_title": "SECTION 1 ACNEIFORM DISORDERS",
+        "disorders": [
+          {
+            "name": "Acne Vulgaris",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Rosacea",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Periorificial Dermatitis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Miliaria",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Hidradenitis Suppurativa",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Fox Fordyce",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 2 ECZEMA/DERMATITIS",
+        "disorders": [
+          {
+            "name": "Contact Dermatitis",
+            "sub_disorders": [
+              {
+                "name": "Irritant Contact Dermatitis (ICD)",
+                "sub_disorders": [
+                  {
+                    "name": "Acute Irritant Contact Dermatitis",
+                    "images": [
+                      {
+                        "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                        "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                      },
+                      {
+                        "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                        "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chronic Irritant Contact Dermatitis",
+                    "images": [
+                      {
+                        "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                        "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                      },
+                      {
+                        "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                        "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Special Forms of ICD",
+                    "images": [
+                      {
+                        "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                        "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                      },
+                      {
+                        "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                        "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Allergic Contact Dermatitis",
+                "sub_disorders": [
+                  {
+                    "name": "Patch testing",
+                    "images": [
+                      {
+                        "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                        "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                      },
+                      {
+                        "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                        "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Atopic Dermatitis",
+            "sub_disorders": [
+              {
+                "name": "Lichen Simplex Chronicus",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Prurigo Nodularis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dyshidrotic Eczematous Dermatitis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Nummular Eczema",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Autosensitization Dermatitis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Seborrheic Dermatitis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Asteatotic Dermatitis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Therapeutics",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 3 PSORIASIS; PSORIASIFORM AND PITYRIASIFORM DERMATOSES",
+        "disorders": [
+          {
+            "name": "Psoriasis",
+            "sub_disorders": [
+              {
+                "name": "Psoriasis Vulgaris",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Pustular Psoriasis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Palmoplantar Pustulosis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Generalized Acute Pustular Psoriasis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Psoriatic Erythroderma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Psoriatic Arthritis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Management of Psoriasis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pityriasis Rubra Pilaris",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Pityriasis Rosea",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Therapeutics",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 4: BULLOUS DISORDERS",
+        "disorders": [
+          {
+            "name": "Pemphigus",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Bullous Pemphigoid",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Cicatricial Pemphigoid",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Pemphigoid Gestationis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Dermatitis Herpetiformis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Linear IgA Dermatosis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Epidermolysis Bullosa Acquisita",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Therapeutics",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 5 INHERITED DISORDERS",
+        "disorders": [
+          {
+            "name": "Darier Disease",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Grover Disease",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Hailey-Hailey Disease (Familial Benign Pemphigus)",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "EB",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Ichthyosis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Pseudoxanthoma Elasticum",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Tuberous Sclerosis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Neurofibromatosis",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Hereditary Hemorrhagic Telangiectasia",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Cowden",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Muir Ture",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 6: Pediatric Focus: VAC and New Syndromes",
+        "disorders": [
+          {
+            "name": "VAC and New Syndromes",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 7 NEUTROPHIL-MEDIATED DISEASES",
+        "disorders": [
+          {
+            "name": "Pyoderma Gangrenosum",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Sweet Syndrome",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Granuloma Faciale",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Therapeutics",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 8 Subcutaneous Disorders",
+        "disorders": [
+          {
+            "name": "Erythema Nodosum Syndrome",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Other Panniculitides",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Lipoma, angiolipoma",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 9 BENIGN NEOPLASMS AND HYPERPLASIAS",
+        "disorders": [
+          {
+            "name": "Disorders of Melanocytes",
+            "sub_disorders": [
+              {
+                "name": "Acquired Melanocytic Nevi",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Halo Melanocytic Nevi",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Blue Nevus",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Nevus Spilus",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Spitz Nevus",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Mongolian Spot",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Nevus of Ota, Ito",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Vascular Tumors (benign)",
+            "sub_disorders": [
+              {
+                "name": "Hemangioma of Infancy",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Pyogenic Granuloma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Glomus Tumor",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Vascular Malformations",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Capillary Malformations",
+            "sub_disorders": [
+              {
+                "name": "Port-Wine Stain",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Spider Angioma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Venous Lake",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Cherry Angioma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Angiokeratoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Lymphatic Malformation",
+            "sub_disorders": [
+              {
+                "name": "Lymphangioma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Miscellaneous Cysts and Pseudocysts",
+            "sub_disorders": [
+              {
+                "name": "Epidermal Inclusion Cyst",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Pilar cyst",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Milium",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Digital Myxoid Cyst",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pseudocyst of the auricle",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Miscellaneous Benign Neoplasm and Hyperplasias",
+            "sub_disorders": [
+              {
+                "name": "Seborrheic Keratosis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "CNH",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Weather nodule nodule",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Becker Nevus",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Trichoepithelioma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Syringoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Cylindroma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Sebaceous Hyperplasia",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Nevus Sebaceous",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Epidermal Nevus",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Benign Dermal Neoplasms and Hyperplasias",
+            "sub_disorders": [
+              {
+                "name": "Dermatofibroma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Hypertrophic Scars and Keloids",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Infantile Digital Fibromatosis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Skin Tag",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 11 PRECANCEROUS LESIONS AND CUTANEUS CARCINOMAS",
+        "disorders": [
+          {
+            "name": "Epidermal Precancers and Cancers",
+            "sub_disorders": [
+              {
+                "name": "Actinic Keratosis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Squamous Cell Carcinoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Basal Cell Carcinoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Basal Cell Nevus Syndrome",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Malignant Appendage Tumors",
+            "sub_disorders": [
+              {
+                "name": "Merkel Cell Carcinoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Sebaceous carcinoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 12 MELANOMA PRECURSORS AND PRIMARY CUTANEOUS MELANOMA",
+        "disorders": [
+          {
+            "name": "Precursors of Cutaneous Melanoma",
+            "sub_disorders": [
+              {
+                "name": "Dysplastic Melanocytic Nevus",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Congenital Melanocytic Nevus",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cutaneous Melanoma",
+            "sub_disorders": [
+              {
+                "name": "Melanoma in Situ",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Lentigo Maligna Melanoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Superficial Spreading Melanoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Nodular Melanoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Desmoplastic Melanoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Acral Lentiginous Melanoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Amelanotic Melanoma",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Dermoscopy",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Malignant Melanoma of the Mucosa",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Metastatic Melanoma",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Staging of Melanoma",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Prognosis of Melanoma",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Management of Melanoma",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 12 PIGMENTARY DISORDERS",
+        "disorders": [
+          {
+            "name": "Vitiligo",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Oculocutaneous Albinism",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Melasma",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "EDP, Lichen Planus pigmentosa",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Pigmentary Changes Following Inflammation of the Skin",
+            "sub_disorders": [
+              {
+                "name": "Hyperpigmentation",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Hypopigmentation",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_title": "SECTION 13 PHOTOSENSITIVITY, PHOTO-INDUCED DISORDERS AND DISORDERS BY IONIZING RADIATION",
+        "disorders": [
+          {
+            "name": "Skin Reactions to Sunlight",
+            "sub_disorders": [
+              {
+                "name": "Acute Sun Damage (Sunburn)",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Phototoxic Drug-/Chemical-Induced Photosensitivity",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Phytophotodermatitis (PPD)",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Photoallergic Drug/Chemical-Induced Photosensitivity",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Polymorphous Light Eruption",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Solar Urticaria",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Porphyria Cutanea Tarda",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Photo-Exacerbated Dermatoses",
+            "images": [
+              {
+                "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+              },
+              {
+                "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+              }
+            ]
+          },
+          {
+            "name": "Chronic Photodamage",
+            "sub_disorders": [
+              {
+                "name": "Dermatoheliosis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Solar Lentigo",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Skin Reactions to Ionizing Radiation",
+            "sub_disorders": [
+              {
+                "name": "Radiation Dermatitis",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "Radiation included telangiectasias",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              },
+              {
+                "name": "AVRP",
+                "images": [
+                  {
+                    "thumb": "https://placehold.co/150x100/E0E0E0/000000?text=Image",
+                    "original": "https://placehold.co/150x100/E0E0E0/000000?text=Image"
+                  },
+                  {
+                    "thumb": "https://placehold.co/150x100/D0D0D0/000000?text=Image2",
+                    "original": "https://placehold.co/150x100/D0D0D0/000000?text=Image2"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

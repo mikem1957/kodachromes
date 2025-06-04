@@ -1,0 +1,325 @@
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+
+  #searchBox, #categorySelect {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+  }
+
+  #searchBox:focus, #categorySelect:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+
+  #searchButton {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #searchButton:hover {
+    background-color: #357ABD;
+  }
+
+  #results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .image-container { /* New style for the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px; /* Match image width for consistent layout */
+  }
+
+  #results img {
+    width: 150px;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+
+  #results img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .image-name { /* New style for the image name */
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+    word-break: break-word; /* Allow long names to wrap */
+  }
+</style>
+
+<input type="text" id="searchBox" placeholder="Search for image(s) ..." onkeydown="handleEnter(event)">
+<select id="categorySelect">
+  <option value="">All Diagnoses (Categories)</option>
+</select>
+<button id="searchButton">Search</button> <div id="results"></div>
+
+<script>
+  const images = [];
+  let observer; // Declare observer globally or in a scope accessible by setupLazyLoadObserver and searchImages
+
+  async function fetchImages() {
+    try {
+      // Add cache busting to the JSON file URL as well, just in case its caching is an issue
+      const jsonUrl = `https://raw.githubusercontent.com/mikem1957/kodachromes/main/all_images.json?_t=${new Date().getTime()}`;
+      // const jsonUrl = `https://drive.google.com/uc?export=download&id=1zikWU8A3iynRPa-vI01dGCnFidUWXtqx`;
+      // const jsonUrl = `https://www.dropbox.com/scl/fi/v7g4gx4k6b9eiioc223qa/all_images.json?rlkey=y3itxr53zt5nq04pdw15nfjd6&st=vymxhwt3&raw=1`;
+
+      const response = await fetch(jsonUrl);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      images.push(...data);
+      console.log('Images array filled:', images);
+      populateCategories(); // Call populateCategories after images are fetched
+      // searchImages(); // Optionally, display all images initially after fetching
+    } catch (error) {
+      console.error('Error fetching images:', error);
+    }
+  }
+
+  function populateCategories() {
+    const categorySelect = document.getElementById('categorySelect');
+    // Ensure unique categories and sort them
+    const categories = [...new Set(images.map(img => img.category))].sort();
+
+    categories.forEach(cat => {
+      if (cat) { // Ensure category is not empty or null
+        const option = document.createElement('option');
+        option.value = cat;
+        option.textContent = cat;
+        categorySelect.appendChild(option);
+      }
+    });
+  }
+
+  // Moved event listener attachment here, after all functions are defined
+  // This ensures searchImages is available when the button is clicked.
+  document.addEventListener('DOMContentLoaded', () => {
+    fetchImages(); // Start fetching images when the page loads
+    document.getElementById('searchButton').addEventListener('click', searchImages);
+  });
+
+  function handleEnter(event) {
+    if (event.key === "Enter") {
+      searchImages();
+    }
+  }
+
+  function setupLazyLoadObserver() {
+    if ("IntersectionObserver" in window) {
+      if (observer) { // Disconnect existing observer if it exists
+        observer.disconnect();
+      }
+      observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const imgEl = entry.target;
+            // Only set src if it's not already set to the final URL
+            if (!imgEl.src.includes(imgEl.dataset.src)) { // Prevents re-setting if already loaded
+                imgEl.src = imgEl.dataset.src;
+            }
+            observer.unobserve(imgEl);
+          }
+        });
+      }, {
+        rootMargin: '0px 0px 100px 0px'
+      });
+    } else {
+      console.warn("Intersection Observer not supported. Images will load normally.");
+    }
+  }
+
+  function addCacheBust(url) {
+    // Add a unique timestamp as a query parameter
+    // This forces the browser/CDN to fetch a fresh version of the image
+    const timestamp = new Date().getTime();
+    if (url.includes('?')) {
+        return `${url}&_cb=${timestamp}`;
+    } else {
+        return `${url}?_cb=${timestamp}`;
+    }
+  }
+
+  // A key to store our session authentication flag in sessionStorage
+  // const SESSION_AUTH_KEY = 'isAuthenticated'; 
+  const SESSION_AUTH_KEY = 'authenticated';
+    
+
+  function searchImages() {
+    const query = document.getElementById('searchBox').value.trim().toLowerCase();
+    const category = document.getElementById('categorySelect').value;
+    const results = document.getElementById('results');
+    results.innerHTML = '';
+
+    // Disconnect previous observers before clearing results to prevent errors
+    if (observer) {
+      observer.disconnect();
+    }
+
+    const filtered = images.filter(img =>
+      (query === '' || img.name.toLowerCase().includes(query)) &&
+      (category === '' || img.category === category)
+    );
+
+    if (filtered.length === 0) {
+      results.innerHTML = '<p>No results found.</p>';
+      return;
+    }
+
+    setupLazyLoadObserver(); // Setup the observer every time a new search is performed
+      
+  
+    filtered.forEach(img => {
+      const imageContainer = document.createElement('div');
+      imageContainer.classList.add('image-container');
+
+      const link = document.createElement('a');
+      // Apply cache busting to the full image URL (img.url)
+      link.href = addCacheBust(img.url);
+      link.target = "_blank";
+
+      const imgEl = document.createElement('img');
+      imgEl.src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
+      // Apply cache busting to the thumbnail URL (img.thumb)
+      imgEl.dataset.src = addCacheBust(img.thumb); // This is the URL IntersectionObserver will load
+      imgEl.alt = img.name;
+      imgEl.classList.add('lazy');
+
+      // --- ADDED CODE: Event listener directly on the thumbnail image ---
+      imgEl.addEventListener('click', (event) => {
+        event.preventDefault(); // Stop the default link behavior (opening link.href)
+        event.stopPropagation(); // Stop the event from bubbling up to parent elements
+
+        // --- MODIFIED LOGIC: Check session storage first ---
+        if (sessionStorage.getItem(SESSION_AUTH_KEY) === 'true') {
+            // If already authenticated, directly open the full image
+            window.open(addCacheBust(img.url), '_blank');
+        } else {
+            // Otherwise, show the password prompt
+            showPasswordPromptModal(addCacheBust(img.url));
+        }
+        // --- END MODIFIED LOGIC ---
+      });
+      // --- END ADDED CODE ---
+        
+      if (observer) {
+        observer.observe(imgEl);
+      } else {
+        // Fallback for no IntersectionObserver: load directly, with cache bust
+        imgEl.src = addCacheBust(img.thumb);
+      }
+
+      const nameEl = document.createElement('p');
+      nameEl.classList.add('image-name');
+      nameEl.textContent = img.name;
+
+      link.appendChild(imgEl);
+      imageContainer.appendChild(link);
+      imageContainer.appendChild(nameEl);
+      results.appendChild(imageContainer);
+    });
+  }
+
+function showPasswordPromptModal(protectedImageUrl) {
+    if (document.querySelector('.password-modal')) return;
+
+    const modal = document.createElement('div');
+    modal.classList.add('password-modal');
+    modal.innerHTML = `
+        <div class="modal-content">
+            <h3>Enter Password</h3>
+            <input type="password" id="passwordInput" placeholder="Password">
+            <button id="submitPassword">Access</button>
+            <button id="cancelPassword">Cancel</button>
+            <p id="passwordError" style="color: red;"></p>
+        </div>
+    `;
+    document.body.appendChild(modal);
+
+    const passwordInput = modal.querySelector('#passwordInput');
+    const submitButton = modal.querySelector('#submitPassword');
+    const cancelButton = modal.querySelector('#cancelPassword');
+    const errorParagraph = modal.querySelector('#passwordError');
+
+    const PREDEFINED_PASSWORD = "MikeMikailov";
+
+    submitButton.onclick = () => {
+        const enteredPassword = passwordInput.value;
+
+        if (enteredPassword === PREDEFINED_PASSWORD) {
+            console.log("✅ Correct password entered");
+
+            // Open popup immediately
+            const win = window.open('', '_blank');
+
+            if (win) {
+                try {
+                    win.location.href = protectedImageUrl;
+                    sessionStorage.setItem(SESSION_AUTH_KEY, 'true');
+                    modal.remove();
+                    console.log("✅ Modal removed after opening image");
+                } catch (err) {
+                    console.error("❌ Failed to set win.location:", err);
+                    errorParagraph.textContent = "Could not open image.";
+                }
+            } else {
+                console.warn("❌ Popup blocked");
+                errorParagraph.textContent = "Popup blocked! Please allow popups.";
+            }
+        } else {
+            errorParagraph.textContent = "Incorrect password.";
+        }
+    };
+
+    cancelButton.onclick = () => {
+        modal.remove();
+    };
+
+    // Modal styles
+    modal.style.position = 'fixed';
+    modal.style.top = '0';
+    modal.style.left = '0';
+    modal.style.width = '100%';
+    modal.style.height = '100%';
+    modal.style.backgroundColor = 'rgba(0,0,0,0.5)';
+    modal.style.display = 'flex';
+    modal.style.justifyContent = 'center';
+    modal.style.alignItems = 'center';
+
+    const modalContent = modal.querySelector('.modal-content');
+    modalContent.style.backgroundColor = 'white';
+    modalContent.style.padding = '20px';
+    modalContent.style.borderRadius = '8px';
+    modalContent.style.textAlign = 'center';
+}
+
+    
+</script>

@@ -78,7 +78,8 @@
 <select id="categorySelect">
   <option value="">All Diagnoses (Categories)</option>
 </select>
-<button id="searchButton">Search</button> <div id="results"></div>
+<button id="searchButton" onclick="searchImages()">Search</button>
+<div id="results"></div>
 
 <script>
   const images = [];
@@ -86,12 +87,7 @@
 
   async function fetchImages() {
     try {
-      // Add cache busting to the JSON file URL as well, just in case its caching is an issue
-      const jsonUrl = `https://raw.githubusercontent.com/mikem1957/kodachromes/main/all_images.json?_t=${new Date().getTime()}`;
-      // const jsonUrl = `https://drive.google.com/uc?export=download&id=1zikWU8A3iynRPa-vI01dGCnFidUWXtqx`;
-      // const jsonUrl = `https://www.dropbox.com/scl/fi/v7g4gx4k6b9eiioc223qa/all_images.json?rlkey=y3itxr53zt5nq04pdw15nfjd6&st=vymxhwt3&raw=1`;
-
-      const response = await fetch(jsonUrl);
+      const response = await fetch('https://raw.githubusercontent.com/mikem1957/kodachromes/main/all_images.json');
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -120,12 +116,9 @@
     });
   }
 
-  // Moved event listener attachment here, after all functions are defined
-  // This ensures searchImages is available when the button is clicked.
-  document.addEventListener('DOMContentLoaded', () => {
+  window.onload = () => {
     fetchImages(); // Start fetching images when the page loads
-    document.getElementById('searchButton').addEventListener('click', searchImages);
-  });
+  };
 
   function handleEnter(event) {
     if (event.key === "Enter") {
@@ -142,10 +135,7 @@
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             const imgEl = entry.target;
-            // Only set src if it's not already set to the final URL
-            if (!imgEl.src.includes(imgEl.dataset.src)) { // Prevents re-setting if already loaded
-                imgEl.src = imgEl.dataset.src;
-            }
+            imgEl.src = imgEl.dataset.src;
             observer.unobserve(imgEl);
           }
         });
@@ -156,18 +146,6 @@
       console.warn("Intersection Observer not supported. Images will load normally.");
     }
   }
-
-  function addCacheBust(url) {
-    // Add a unique timestamp as a query parameter
-    // This forces the browser/CDN to fetch a fresh version of the image
-    const timestamp = new Date().getTime();
-    if (url.includes('?')) {
-        return `${url}&_cb=${timestamp}`;
-    } else {
-        return `${url}?_cb=${timestamp}`;
-    }
-  }
-
 
   function searchImages() {
     const query = document.getElementById('searchBox').value.trim().toLowerCase();
@@ -197,22 +175,19 @@
       imageContainer.classList.add('image-container');
 
       const link = document.createElement('a');
-      // Apply cache busting to the full image URL (img.url)
-      link.href = addCacheBust(img.url);
+      link.href = img.url;
       link.target = "_blank";
 
       const imgEl = document.createElement('img');
       imgEl.src = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
-      // Apply cache busting to the thumbnail URL (img.thumb)
-      imgEl.dataset.src = addCacheBust(img.thumb); // This is the URL IntersectionObserver will load
+      imgEl.dataset.src = img.thumb;
       imgEl.alt = img.name;
       imgEl.classList.add('lazy');
 
       if (observer) {
         observer.observe(imgEl);
       } else {
-        // Fallback for no IntersectionObserver: load directly, with cache bust
-        imgEl.src = addCacheBust(img.thumb);
+        imgEl.src = img.thumb;
       }
 
       const nameEl = document.createElement('p');

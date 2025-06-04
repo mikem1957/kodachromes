@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Diagnosis Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .buttons button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      background-color: #007bff;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+
+    .buttons button:hover {
+      background-color: #0056b3;
+    }
+
+    #categoryTitle {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin: 40px 0 30px; /* more space before image grid */
+      text-align: center;
+      width: 100%;
+      position: relative;
+      z-index: 2;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+    }
+
+    .image-container {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      width: 220px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .image-container .label {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #555;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Select a Diagnosis</h1>
+
+    <div class="buttons">
+      <button onclick="showCategory('Basal Cell Carcinoma')">Basal Cell Carcinoma</button>
+      <button onclick="showCategory('Melanoma')">Melanoma</button>
+      <button onclick="showCategory('Squamous Cell Carcinoma')">Squamous Cell Carcinoma</button>
+    </div>
+
+    <div id="categoryTitle"></div>
+    <div id="gallery" class="gallery"></div>
+  </div>
+
+  <script>
+    const images = {
+      "Basal Cell Carcinoma": [
+        { src: "https://via.placeholder.com/200x150?text=Basal+1", label: "BCC #1" },
+        { src: "https://via.placeholder.com/200x150?text=Basal+2", label: "BCC #2" },
+        { src: "https://via.placeholder.com/200x150?text=Basal+3", label: "BCC #3" }
+      ],
+      "Melanoma": [
+        { src: "https://via.placeholder.com/200x150?text=Melanoma+1", label: "Melanoma #1" },
+        { src: "https://via.placeholder.com/200x150?text=Melanoma+2", label: "Melanoma #2" },
+        { src: "https://via.placeholder.com/200x150?text=Melanoma+3", label: "Melanoma #3" }
+      ],
+      "Squamous Cell Carcinoma": [
+        { src: "https://via.placeholder.com/200x150?text=Squamous+1", label: "SCC #1" },
+        { src: "https://via.placeholder.com/200x150?text=Squamous+2", label: "SCC #2" },
+        { src: "https://via.placeholder.com/200x150?text=Squamous+3", label: "SCC #3" }
+      ]
+    };
+
+    function showCategory(category) {
+      const gallery = document.getElementById("gallery");
+      const title = document.getElementById("categoryTitle");
+
+      title.textContent = category;
+      gallery.innerHTML = "";
+
+      images[category].forEach((item) => {
+        const container = document.createElement("div");
+        container.className = "image-container";
+
+        const img = document.createElement("img");
+        img.src = item.src;
+
+        const label = document.createElement("div");
+        label.className = "label";
+        label.textContent = item.label;
+
+        container.appendChild(img);
+        container.appendChild(label);
+        gallery.appendChild(container);
+      });
+    }
+  </script>
+</body>
+</html>
